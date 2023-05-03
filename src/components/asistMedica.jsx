@@ -9,6 +9,7 @@ class AsistMedica extends React.Component {
       easing: "ease-in-sine",
     });
     AOS.refresh();
+    window.scrollTo(0, 0);
   }
 
   render() {
