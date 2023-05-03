@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css'
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './components/navbar';
 import Whatsapp from './components/whatsapp';
 import Home from './components/home';
@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="App">
 
-      <Router basename="/">
+      <HashRouter>
         <Navbar />
         <Whatsapp />
 
@@ -43,16 +43,16 @@ function App() {
             <Cultura />
             <Services />
           </>} />
-          <Route path="/seguro/individuales/" element={<>
+          <Route path="/individuales" element={<>
             <Individual />
           </>} />
-          <Route path="/seguro/pymes/" element={<>
+          <Route path="/pymes" element={<>
             <Pymes />
           </>} />
           <Route path="/seguro/corporativo" element={<>
             <Corporativo />
           </>} />
-          <Route path="//vehiculo" element={<>
+          <Route path="/vehiculo" element={<>
             <Vehiculos />
           </>} />
           <Route path="/atencionmedica" element={<>
@@ -77,7 +77,7 @@ function App() {
         <Formulario />
         <Cambio />
         <Footer />
-      </Router>
+      </HashRouter>
 
     </div>
   );
