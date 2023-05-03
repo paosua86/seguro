@@ -2,7 +2,7 @@
   "name": "seguro",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/paosua86/seguro",
+  "homepage": "/seguro/#",
   "type": "module",
   "scripts": {
     "dev": "vite",

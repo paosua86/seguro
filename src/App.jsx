@@ -34,7 +34,7 @@ function App() {
         <Whatsapp />
 
         <Routes>
-          <Route path="/" element={<>
+          <Route path="/#" element={<>
             <Home />
             <Quienes />
             <Testimonios />
@@ -42,10 +42,10 @@ function App() {
             <Cultura />
             <Services />
           </>} />
-          <Route path="/individuales" element={<>
+          <Route path="/#/individuales" element={<>
             <Individual />
           </>} />
-          <Route path="/pymes" element={<>
+          <Route path="/#pymes" element={<>
             <Pymes />
           </>} />
           <Route path="/corporativo" element={<>
