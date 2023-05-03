@@ -27,7 +27,7 @@ class Services extends React.Component {
 
         <div class="py-20 overflow-x-hidden flex flex-wrap mx-auto md:flex-nowrap p-12 justify-center">
 
-          <a href="/#/individuales">
+          <a href="/seguro/#/individuales">
             <div class="flex w-full">
               <div class="bg-blue-base relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl w-52 md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
                 <FaCreativeCommonsBy class="w-full rounded-t-xl text-white md:h-36 pt-5" />
