@@ -1,9 +1,12 @@
 import React from "react";
 
 
-function Navbar () {
+class Navbar extends React.Component {
 
+  render() {
     return (
+
+
       <nav class="bg-white border-gray-200 dark:bg-gray-900 fixed inset-x-0 top-0 z-50">
         <div class="max-w-full flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="/" class="flex items-center">
@@ -58,7 +61,7 @@ function Navbar () {
                 <a href="/#contact" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Reporta tu siniestro</a>
               </li>
               <li>
-                <a href="https://www.howdengroup.com/"  target="_blank" rel="noreferrer" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Howden</a>
+                <a href="https://www.howdengroup.com/" target="_blank" rel="noreferrer" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Howden</a>
               </li>
             </ul>
           </div>
@@ -67,6 +70,6 @@ function Navbar () {
 
     );
   }
-
+}
 
 export default Navbar;

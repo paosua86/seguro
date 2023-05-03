@@ -2,16 +2,15 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-const ClientesAso = () => {
-    useEffect(() => {
+class ClientesAso extends React.Component {
+    componentDidMount() {
         AOS.init({
             duration: 1200,
             easing: 'ease-in-sine',
-            delay: 50,
         });
         AOS.refresh();
-    }, []);
-
+    }
+    render() {
     return (
         <section className="overflow-x-hidden px-4 py-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-24">
             <h2 data-aos="fade-right" className="py-20 text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-center text-blue-dark">
@@ -72,5 +71,6 @@ const ClientesAso = () => {
         </section >
 );
 };
+}
 
 export default ClientesAso;

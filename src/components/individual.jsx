@@ -2,15 +2,15 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-const Individual = () => {
-    useEffect(() => {
+class Individual extends React.Component {
+    componentDidMount() {
         AOS.init({
             duration: 1200,
             easing: 'ease-in-sine',
         });
         AOS.refresh();
-    }, []);
-
+    }
+    render() {
     return (
         <section>
             <div class=" flex flex-col items-center lg:px-3 py-8 mx-auto">
@@ -53,6 +53,7 @@ const Individual = () => {
             </div>
         </section>
     );
+}
 }
 
 export default Individual;

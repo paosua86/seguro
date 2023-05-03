@@ -3,16 +3,15 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './home_animation.css';
 
-const Home = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1200,
-      easing: 'ease-in-sine',
-      delay: 50,
-    });
-    AOS.refresh();
-  }, []);
-
+class Home extends React.Component {
+  componentDidMount() {
+      AOS.init({
+          duration: 1200,
+          easing: 'ease-in-sine',
+      });
+      AOS.refresh();
+  }
+  render() {
   return (
     <section className="overflow-x-hidden text-center px-4 py-2 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-24" id="home">
       <div className="home-content">
@@ -74,5 +73,6 @@ const Home = () => {
     </section>
   );
 };
+}
 
 export default Home;
