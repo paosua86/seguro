@@ -30,12 +30,12 @@ function App() {
   return (
     <div className="App">
 
-      <Router>
+      <Router basename="/">
         <Navbar />
         <Whatsapp />
 
         <Routes>
-          <Route path="/seguro" element={<>
+          <Route path="/" element={<>
             <Home />
             <Quienes />
             <Testimonios />
@@ -43,34 +43,34 @@ function App() {
             <Cultura />
             <Services />
           </>} />
-          <Route path="/individuales" element={<>
+          <Route path="/seguro/individuales" element={<>
             <Individual />
           </>} />
-          <Route path="/pymes" element={<>
+          <Route path="/seguro/pymes" element={<>
             <Pymes />
           </>} />
-          <Route path="/corporativo" element={<>
+          <Route path="/seguro/corporativo" element={<>
             <Corporativo />
           </>} />
-          <Route path="/vehiculo" element={<>
+          <Route path="/seguro/vehiculo" element={<>
             <Vehiculos />
           </>} />
-          <Route path="/atencionmedica" element={<>
+          <Route path="/seguro/atencionmedica" element={<>
             <AsistMedica />
           </>} />
-          <Route path="/accidentespersonales" element={<>
+          <Route path="/seguro/accidentespersonales" element={<>
             <AccidentesPersonales />
           </>} />
-          <Route path="/viajes" element={<>
+          <Route path="/seguro/viajes" element={<>
             <Viajes />
           </>} />
-          <Route path="/hogar" element={<>
+          <Route path="/seguro/hogar" element={<>
             <Hogar />
           </>} />
-          <Route path="/innovadores" element={<>
+          <Route path="/seguro/innovadores" element={<>
             <Innovadores />
           </>} />
-          <Route path="/fianzas" element={<>
+          <Route path="/seguro/fianzas" element={<>
             <Fianzas />
           </>} />
         </Routes>
