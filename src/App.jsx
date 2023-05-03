@@ -43,34 +43,34 @@ function App() {
             <Cultura />
             <Services />
           </>} />
-          <Route path="/seguro/individuales" element={<>
+          <Route path="/individuales" element={<>
             <Individual />
           </>} />
-          <Route path="/seguro/pymes" element={<>
+          <Route path="/pymes" element={<>
             <Pymes />
           </>} />
-          <Route path="/seguro/corporativo" element={<>
+          <Route path="/corporativo" element={<>
             <Corporativo />
           </>} />
-          <Route path="/seguro/vehiculo" element={<>
+          <Route path="//vehiculo" element={<>
             <Vehiculos />
           </>} />
-          <Route path="/seguro/atencionmedica" element={<>
+          <Route path="/atencionmedica" element={<>
             <AsistMedica />
           </>} />
-          <Route path="/seguro/accidentespersonales" element={<>
+          <Route path="/accidentespersonales" element={<>
             <AccidentesPersonales />
           </>} />
-          <Route path="/seguro/viajes" element={<>
+          <Route path="/viajes" element={<>
             <Viajes />
           </>} />
-          <Route path="/seguro/hogar" element={<>
+          <Route path="/hogar" element={<>
             <Hogar />
           </>} />
-          <Route path="/seguro/innovadores" element={<>
+          <Route path="/innovadores" element={<>
             <Innovadores />
           </>} />
-          <Route path="/seguro/fianzas" element={<>
+          <Route path="/fianzas" element={<>
             <Fianzas />
           </>} />
         </Routes>
