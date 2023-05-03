@@ -27,7 +27,7 @@ class Services extends React.Component {
 
         <div class="py-20 overflow-x-hidden flex flex-wrap mx-auto md:flex-nowrap p-12 justify-center">
 
-          <a href="/seguro/#/individuales">
+          <a href="#/individuales">
             <div class="flex w-full">
               <div class="bg-blue-base relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl w-52 md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
                 <FaCreativeCommonsBy class="w-full rounded-t-xl text-white md:h-36 pt-5" />
@@ -86,7 +86,7 @@ class Services extends React.Component {
             </div>
           </a>
 
-          <a href="/atencionmedica">
+          <a href="#/atencionmedica">
             <div class="flex w-full">
               <div class="bg-blue-bright relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl w-52 md:w-52 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
                 <FaHandHoldingMedical class="w-full rounded-t-xl text-white h-24 md:h-32 pt-8" />
@@ -99,7 +99,7 @@ class Services extends React.Component {
             </div>
           </a>
 
-          <a href="/accidentespersonales">
+          <a href="#/accidentespersonales">
             <div class="flex w-full">
               <div class="bg-blue-medium relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl w-52 md:w-52 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
                 <FaAccessibleIcon class="w-full rounded-t-xl text-white h-24 md:h-32 pt-8" />
@@ -112,7 +112,7 @@ class Services extends React.Component {
             </div>
           </a>
 
-         <a href="/viajes">
+         <a href="#/viajes">
             <div class="flex w-full">
               <div class="bg-blue-medium-dark relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl w-52 md:w-52 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
                 <BsFillAirplaneFill class="w-full rounded-t-xl text-white h-24 md:h-32 pt-8" />
@@ -125,7 +125,7 @@ class Services extends React.Component {
             </div>
           </a>
 
-          <a href="/hogar">
+          <a href="#/hogar">
             <div class="flex w-full">
               <div class="bg-blue-dark relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl w-52 md:w-52 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
                 <FaHome class="w-full rounded-t-xl text-white h-24 md:h-32 pt-8" />
@@ -138,7 +138,7 @@ class Services extends React.Component {
             </div>
           </a>
 
-          <a href="/innovadores">
+          <a href="#/innovadores">
             <div class="flex w-full">
               <div class="bg-blue-base relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl w-52 md:w-52 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
                 <TbDrone class="w-full rounded-t-xl text-white h-24 md:h-32 pt-8" />
@@ -151,7 +151,7 @@ class Services extends React.Component {
             </div>
           </a>
 
-          <a href="/fianzas">
+          <a href="#/fianzas">
             <div class="flex w-full">
               <div class="bg-blue-bright relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl w-52 md:w-52 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
                 <FaMoneyBillWaveAlt class="w-full rounded-t-xl text-white h-24 md:h-32 pt-8" />
