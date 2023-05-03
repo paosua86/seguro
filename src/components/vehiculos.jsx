@@ -94,6 +94,7 @@ class Vehiculos extends React.Component {
                                     </lu>
                                     <a href="/home#contact" class="inline-flex items-center mt-4 font-semibold text-blue-600 lg:mb-0 hover:text-neutral-600" title="read more"> Cotizar » </a>
                                 </div>
+
                             </div>
                         </div>
                     </div>
