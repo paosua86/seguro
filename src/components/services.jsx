@@ -27,7 +27,7 @@ class Services extends React.Component {
 
         <div class="py-20 overflow-x-hidden flex flex-wrap mx-auto md:flex-nowrap p-12 justify-center">
 
-          <a href="seguro/#/individuales">
+          <a href="#/individuales">
             <div class="flex w-full">
               <div class="bg-blue-base relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl w-52 md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
                 <FaCreativeCommonsBy class="w-full rounded-t-xl text-white md:h-36 pt-5" />
@@ -41,7 +41,7 @@ class Services extends React.Component {
             </div>
           </a>
 
-          <a href="/pymes">
+          <a href="#/pymes">
             <div class="flex w-full">
               <div class="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-blue-bright shadow-2xl rounded-xl w-52 md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
                 <FaCashRegister class="w-full rounded-t-xl text-white md:h-36 pt-5" />
@@ -55,7 +55,7 @@ class Services extends React.Component {
             </div>
           </a>
 
-          <a href="/corporativo">
+          <a href="#/corporativo">
             <div class="flex w-full">
               <div class="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-blue-medium shadow-2xl rounded-xl w-52 md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
                 <FaIndustry class="w-full rounded-t-xl text-white md:h-36 pt-5" />
@@ -73,7 +73,7 @@ class Services extends React.Component {
 
         <div class="grid grid-cols mx-auto md:flex md:flex-nowrap p-12 justify-center">
 
-          <a href="/vehiculo">
+          <a href="#/vehiculo">
             <div class="flex flex-col w-full">
               <div class="bg-blue-base relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl w-52 md:w-52 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
                 <FaCar class="w-full rounded-t-xl text-white h-24 md:h-32 pt-8" />
