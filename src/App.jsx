@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, HashRouter, Link, Route, Routes } from 'react-router-dom';
 import Navbar from './components/navbar';
 import Whatsapp from './components/whatsapp';
 import Home from './components/home';
@@ -29,6 +29,9 @@ import Quienes from './components/quienes';
 function App() {
   return (
     <div className="App">
+
+
+
       <Router>
         <Navbar />
         <Whatsapp />
@@ -77,6 +80,7 @@ function App() {
         <Cambio />
         <Footer />
       </Router>
+
     </div>
   );
 }
