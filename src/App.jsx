@@ -32,7 +32,7 @@ function App() {
 
 
 
-      <Router basename="/seguro" >
+      <Router>
         <Navbar />
         <Whatsapp />
 
