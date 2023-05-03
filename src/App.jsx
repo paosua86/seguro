@@ -43,13 +43,13 @@ function App() {
             <Cultura />
             <Services />
           </>} />
-          <Route path="/seguro/individuales" element={<>
+          <Route path="/seguro/individuales/" element={<>
             <Individual />
           </>} />
-          <Route path="/pymes" element={<>
+          <Route path="/seguro/pymes/" element={<>
             <Pymes />
           </>} />
-          <Route path="/corporativo" element={<>
+          <Route path="/seguro/corporativo" element={<>
             <Corporativo />
           </>} />
           <Route path="//vehiculo" element={<>
