@@ -32,12 +32,12 @@ function App() {
 
 
 
-      <Router>
+      <Router basename="/seguro" >
         <Navbar />
         <Whatsapp />
 
         <Routes>
-          <Route path="/" element={<>
+          <Route path="/seguro" element={<>
             <Home />
             <Quienes />
             <Testimonios />
