@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/navbar';
 import Whatsapp from './components/whatsapp';
 import Home from './components/home';
@@ -30,12 +30,11 @@ function App() {
   return (
     <div className="App">
 
-      <Router>
         <Navbar />
         <Whatsapp />
 
         <Routes>
-          <Route path="/seguro" element={<>
+          <Route path="/" element={<>
             <Home />
             <Quienes />
             <Testimonios />
@@ -43,13 +42,13 @@ function App() {
             <Cultura />
             <Services />
           </>} />
-          <Route path="/seguro/individuales" element={<>
+          <Route path="/individuales" element={<>
             <Individual />
           </>} />
           <Route path="/pymes" element={<>
             <Pymes />
           </>} />
-          <Route path="/seguro/corporativo" element={<>
+          <Route path="/corporativo" element={<>
             <Corporativo />
           </>} />
           <Route path="/vehiculo" element={<>
@@ -77,7 +76,6 @@ function App() {
         <Formulario />
         <Cambio />
         <Footer />
-      </Router>
 
     </div>
   );
