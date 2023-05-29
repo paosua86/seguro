@@ -60,7 +60,7 @@ const Testimonios = () => {
   const tweetsJSX = tweets.map((tweet) => (
     <div
       key={tweet.id}
-      className="overflow-x-hidden bg-white flex flex-col w-full max-w-lg p-8 text-left shadow-2xl lg:mx-auto rounded-xl transition duration-500 ease-in-out transform hover:scale-105"
+      className="overflow-x-hidden bg-white flex flex-col h-full w-full max-w-lg p-8 text-left shadow-2xl lg:mx-auto rounded-xl transition duration-500 ease-in-out transform hover:scale-105"
     >
       <div className="flex  items-center mb-4">
         <div>
@@ -87,9 +87,10 @@ const Testimonios = () => {
       >
         Nuestros clientes nos avalan
       </h2>
-      <div>
-        <div class="grid grid-cols-1 gap-6 lg:grid-cols-3 max-w-7xl">{tweetsJSX}</div>
+      <div className="flex justify-center items-center">
+        <div class="grid grid-cols-1 gap-6 lg:grid-cols-3 max-w-7xl justify-items-center items-center">{tweetsJSX}</div>
       </div>
+
     </section>
 
   );

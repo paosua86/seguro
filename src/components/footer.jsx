@@ -9,14 +9,12 @@ class Footer extends React.Component {
       <footer className="bg-black text-white flex justify-around flex-col md:flex-row">
         <div className="flex justify-between items-center px-9 py-8 gap-7">
           <div className="flex flex-col">
-            <div className="mb-4">Horario :</div>
             <div className="mb-4">Dirección Matriz:</div>
             <div className="mb-4">Teléfono :</div>
             <div className="mb-4">Celular :</div>
             <div>Email :</div>
           </div>
           <div className="flex flex-col">
-            <div className="mb-4">8:30 - 17h30</div>
             <div className="mb-4">
               Shyris N34 - 152 y Holanda, Edificio Shyris Center, Piso 4
             </div>

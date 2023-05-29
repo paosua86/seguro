@@ -42,14 +42,13 @@ class Vehiculos extends React.Component {
                                     <h2 className="lg:text-3xl pb-12">Cobertura:</h2>
                                     <lu>
                                         <li>Amparo Patrimonial</li>
-                                        <li>Responsabilidad Civil hasta LUC USD 20,000.00</li>
-                                        <li>Accidentes personales/ocupante hasta USD 5,000.00</li>
-                                        <li>Gastos médicos/ocupante hasta USD 3,000.00</li>
-                                        <li>Gastos de sepelio/ocupante hasta USD 200.00</li>
+                                        <li>Responsabilidad Civil desde LUC USD 20,000.00</li>
+                                        <li>Accidentes personales/ocupante desde USD 5,000.00</li>
+                                        <li>Gastos médicos/ocupante desde USD 3,000.00</li>
+                                        <li>Gastos de sepelio/ocupante desde USD 200.00</li>
                                         <li>Cobertura de Muerte Accidental para el titular de la póliza a
                                             consecuencia de un evento cubierto en la misma USD 10,000.00.</li>
-                                        <li>Asistencia legal-preliminar telefónica las 24 horas del día, 365
-                                            días al año.</li>
+                                        <li>Asistencia Vehicular y legal las 24 horas del día, 365 días del año.</li>
                                     </lu>
                                     <a href="/home#contact" class="inline-flex items-center mt-4 font-semibold text-blue-600 lg:mb-0 hover:text-neutral-600" title="read more"> Cotizar » </a>
                                 </div>

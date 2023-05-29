@@ -24,7 +24,9 @@ class Formulario extends React.Component {
                     <div class="justify-center mx-auto text-left align-bottom transition-all transform bg-white rounded-lg sm:align-middle sm:max-w-2xl sm:w-full">
 
                         <div class="grid flex-wrap items-center justify-center grid-cols-1 mx-auto shadow-xl lg:grid-cols-2 rounded-xl">
-
+                            <div class="hidden w-full lg:block">
+                                <img class="object-cover h-full bg-cover rounded-l-lg pl-2" src="images/contacto.svg" alt="" />
+                            </div>
                             <div class="w-full px-6 py-3">
                                 <div>
                                     <div class="mt-3 text-left sm:mt-5">
@@ -62,8 +64,21 @@ class Formulario extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                            <div class="order-first hidden w-full lg:block">
-                                <img class="object-cover h-full bg-cover rounded-l-lg pl-2" src="images/contacto.svg" alt="" />
+
+                            <div className="flex justify-center items-center p-4">
+                                <iframe
+                                    className="rounded-lg shadow-md"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.797667225976!2d-78.48470312618099!3d-0.1843546354120453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a7d8b57ab7f%3A0xd3ccda6a0da4fb19!2sShyris%20Center%20Alvarezconst%20S.A.!5e0!3m2!1sen!2sec!4v1685394191745!5m2!1sen!2sec"
+                                    width="950"
+                                    height="300"
+                                    style={{ border: "0" }}
+                                    allowFullScreen=""
+                                    loading="Lazy"
+                                    referrerPolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                            <div class="flex justify-center items-center">
+                                <img class="object-cover h-80 bg-cover rounded-l-lg pl-2" src="images/edificio.jpg" alt="" />
                             </div>
                         </div>
                     </div>

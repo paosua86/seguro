@@ -28,7 +28,7 @@ class Corporativo extends React.Component {
                         <div class="relative justify-center lg:px-4">
                             <div class="lg:grid lg:grid-cols-2">
                                 <div class="p-8">
-                                    <h2 className="lg:text-3xl pb-12">Qué negocios se pueden asegurar?</h2>
+                                    <h2 className="lg:text-3xl pb-12">Qué ramos se pueden asegurar?</h2>
                                     <p>Cobertura:</p>
                                     <lu>
                                         <li>Incendio</li>

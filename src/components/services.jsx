@@ -25,7 +25,7 @@ class Services extends React.Component {
           Variedad de seguros para cada necesidad
         </h2>
 
-        <div class="py-20 overflow-x-hidden flex flex-wrap mx-auto md:flex-nowrap p-12 justify-center">
+        <div class="py-20 overflow-x-hidden flex flex-wrap mx-auto lg:flex-nowrap p-12 justify-center ">
 
           <a href="#/individuales">
             <div class="flex w-full">
@@ -71,7 +71,7 @@ class Services extends React.Component {
 
         </div>
 
-        <div class="grid grid-cols mx-auto md:flex md:flex-nowrap p-12 justify-center">
+        <div class="py-20 overflow-x-hidden flex flex-wrap mx-auto lg:flex-nowrap p-12 justify-center">
 
           <a href="#/vehiculo">
             <div class="flex flex-col w-full">

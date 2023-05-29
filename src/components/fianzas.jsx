@@ -34,7 +34,6 @@ class Fianzas extends React.Component {
                     <li>Cumplimiento de Contrato</li>
                     <li>Buen Uso de Anticipo</li>
                     <li>Garantías Aduaneras</li>
-                    <li>Gastos de sepelio/ocupante hasta USD 200.00</li>
                     <li>Buena Calidad de Materiales</li>
                   </lu>
                   <a href="/home#contact" class="inline-flex items-center mt-4 font-semibold text-blue-600 lg:mb-0 hover:text-neutral-600" title="read more"> Cotizar » </a>

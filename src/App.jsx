@@ -5,7 +5,7 @@ import Navbar from './components/navbar';
 import Whatsapp from './components/whatsapp';
 import Home from './components/home';
 import Testimonios from './components/testimonios';
-import ClientesAso from './components/clientesAso';
+import Clientes from './components/clientes';
 import Cultura from './components/cultura';
 import Services from './components/services';
 import Formulario from './components/formulario';
@@ -22,6 +22,7 @@ import Hogar from './components/hogar';
 import Innovadores from './components/innovadores';
 import Fianzas from './components/fianzas';
 import Quienes from './components/quienes';
+import Socios from './components/socios';
 
 
 
@@ -38,9 +39,10 @@ function App() {
             <Home />
             <Quienes />
             <Testimonios />
-            <ClientesAso />
+            <Socios />
             <Cultura />
             <Services />
+            <Clientes />
           </>} />
           <Route path="/individuales" element={<>
             <Individual />
