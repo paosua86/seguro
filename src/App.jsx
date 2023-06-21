@@ -23,6 +23,7 @@ import Innovadores from './components/innovadores';
 import Fianzas from './components/fianzas';
 import Quienes from './components/quienes';
 import Socios from './components/socios';
+import Vida from './components/vida';
 
 
 
@@ -61,6 +62,9 @@ function App() {
           </>} />
           <Route path="/accidentespersonales" element={<>
             <AccidentesPersonales />
+          </>} />
+          <Route path="/vida" element={<>
+            <Vida />
           </>} />
           <Route path="/viajes" element={<>
             <Viajes />

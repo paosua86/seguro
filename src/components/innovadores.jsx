@@ -21,6 +21,11 @@ class Innovadores extends React.Component {
                             <h2 data-aos="fade-up-left" className="text-4xl lg:text-5xl pb-14 pt-40 text-blue-dark">Seguros INNOVADORES</h2>
                             <h3 className="text-2xl lg:text-3xl pb-1">Los seguros más vanguardistas al alcance de tu mano</h3>
                         </div>
+                        <img
+                            className="flex flex-col items-center"
+                            src="images/dron.png"
+                            alt="dron"
+                        />
                     </div>
                 </div>
                 <div class=" items-center w-full px-5">
@@ -28,7 +33,7 @@ class Innovadores extends React.Component {
                         <div class="relative justify-center lg:px-4">
                             <div class="lg:grid lg:grid-cols-2">
                                 <div class="p-8">
-                                    <h2 className="lg:text-3xl pb-12">Ciber Risk</h2>
+                                    <h2 className="lg:text-3xl pb-12">Cyber Risk</h2>
                                     <p> En un seguro que permite cubrir el
                                         área digital y tecnológica de tu
                                         compañía. Te protege contra hackeos,
@@ -70,7 +75,7 @@ class Innovadores extends React.Component {
                                     <a href="/home#contact" class="inline-flex items-center mt-4 font-semibold text-blue-600 lg:mb-0 hover:text-neutral-600" title="read more"> Cotizar » </a>
                                 </div>
                                 <div class="p-8">
-                                    <h2 className="lg:text-3xl pb-12">Paramédicos</h2>
+                                    <h2 className="lg:text-3xl pb-12">Paramétrico</h2>
                                     <p>Es un seguro que cubre la
                                         probabilidad de que ocurra un
                                         evento predefinido, parámetro o

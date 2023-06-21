@@ -15,12 +15,17 @@ class Vehiculos extends React.Component {
     render() {
         return (
             <section>
-                <div class=" flex flex-col items-center lg:px-3 py-8 mx-auto">
+                <div class="flex flex-col items-center lg:px-3 py-8 mx-auto">
                     <div class="flex flex-col w-full text-left max-w-max lg:max-w-2xl">
                         <div class="w-full mx-auto">
                             <h2 data-aos="fade-up-left" className="text-4xl lg:text-5xl pb-14 pt-40 text-blue-dark">Seguros para VEHÍCULOS</h2>
                             <h3 className="text-2xl lg:text-3xl pb-1"> Lo mejor para tu inversión</h3>
                         </div>
+                        <img
+                            className="flex flex-col items-center"
+                            src="images/carro.png"
+                            alt="carro"
+                        />
                     </div>
                 </div>
                 <div class=" items-center w-full px-5">
@@ -42,7 +47,7 @@ class Vehiculos extends React.Component {
                                     <h2 className="lg:text-3xl pb-12">Cobertura:</h2>
                                     <lu>
                                         <li>Amparo Patrimonial</li>
-                                        <li>Responsabilidad Civil desde LUC USD 20,000.00</li>
+                                        <li>Responsabilidad Civil desde LUC USD 25,000.00</li>
                                         <li>Accidentes personales/ocupante desde USD 5,000.00</li>
                                         <li>Gastos médicos/ocupante desde USD 3,000.00</li>
                                         <li>Gastos de sepelio/ocupante desde USD 200.00</li>

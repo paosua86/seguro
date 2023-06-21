@@ -22,6 +22,11 @@ class AccidentesPersonales extends React.Component {
               <h2 data-aos="fade-up-left" className="text-4xl lg:text-5xl pb-14 pt-40 text-blue-dark">Seguros para ACCIDENTES PERSONALES</h2>
               <h3 className="text-2xl lg:text-3xl pb-1">Variedad de coberturas - 24 horas los 365 días del año en cualquier parte del mundo<br></br> - Precios asequibles - Menores limitaciones por el tipo de riesgo - Complemento a coberturas de Asistencia Médica</h3>
             </div>
+            <img
+              className="flex flex-col items-center"
+              src="images/accidentes.png"
+              alt="accidentes"
+            />
           </div>
         </div>
         <div class=" items-center w-full px-5">

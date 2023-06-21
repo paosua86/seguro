@@ -1,7 +1,7 @@
 import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { FaCreativeCommonsBy, FaCashRegister, FaIndustry, FaCar, FaHandHoldingMedical, FaAccessibleIcon, FaHome, FaMoneyBillWaveAlt} from "react-icons/fa";
+import { FaCross, FaCreativeCommonsBy, FaCashRegister, FaIndustry, FaCar, FaHandHoldingMedical, FaAccessibleIcon, FaHome, FaMoneyBillWaveAlt} from "react-icons/fa";
 import { BsFillAirplaneFill } from "react-icons/bs";
 import { TbDrone } from "react-icons/tb";
 
@@ -75,10 +75,10 @@ class Services extends React.Component {
 
           <a href="#/vehiculo">
             <div class="flex flex-col w-full">
-              <div class="bg-blue-base relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl w-52 md:w-52 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
+            <div class="bg-blue-base relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl w-52 md:w-36 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
                 <FaCar class="w-full rounded-t-xl text-white h-24 md:h-32 pt-8" />
                 <div class="px-6 py-8">
-                  <h4 class="mt-4 h-16 text-2xl font-semibold text-white">
+                  <h4 class="mt-4 h-16 text-2xl md:text-xl font-semibold text-white">
                     <span class="">Vehículos</span>
                   </h4>
                 </div>
@@ -88,10 +88,10 @@ class Services extends React.Component {
 
           <a href="#/atencionmedica">
             <div class="flex w-full">
-              <div class="bg-blue-bright relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl w-52 md:w-52 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
+              <div class="bg-blue-bright relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl w-52 md:w-36 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
                 <FaHandHoldingMedical class="w-full rounded-t-xl text-white h-24 md:h-32 pt-8" />
                 <div class="px-6 py-8">
-                  <h4 class="mt-4 h-16 text-2xl font-semibold text-neutral-600">
+                  <h4 class="mt-4 h-16 text-2xl md:text-xl font-semibold text-neutral-600">
                     <span class="">Asistencia Médica</span>
                   </h4>
                 </div>
@@ -101,11 +101,24 @@ class Services extends React.Component {
 
           <a href="#/accidentespersonales">
             <div class="flex w-full">
-              <div class="bg-blue-medium relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl w-52 md:w-52 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
+              <div class="bg-blue-medium relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl w-52 md:w-36 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
                 <FaAccessibleIcon class="w-full rounded-t-xl text-white h-24 md:h-32 pt-8" />
                 <div class="px-6 py-8">
-                  <h4 class="mt-4 h-16 text-2xl font-semibold text-white">
+                  <h4 class="mt-4 h-16 text-2xl md:text-xl font-semibold text-white">
                     <span class="">Accidentes Personales</span>
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="#/vida">
+            <div class="flex w-full">
+              <div class="bg-blue-medium-dark relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl w-52 md:w-36 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
+                <FaCross class="w-full rounded-t-xl text-white h-24 md:h-32 pt-8" />
+                <div class="px-6 py-8">
+                  <h4 class="mt-4 h-16 text-2xl md:text-xl font-semibold text-white">
+                    <span class="">Vida</span>
                   </h4>
                 </div>
               </div>
@@ -114,10 +127,10 @@ class Services extends React.Component {
 
          <a href="#/viajes">
             <div class="flex w-full">
-              <div class="bg-blue-medium-dark relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl w-52 md:w-52 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
+            <div class="bg-blue-dark relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl w-52 md:w-36 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
                 <BsFillAirplaneFill class="w-full rounded-t-xl text-white h-24 md:h-32 pt-8" />
                 <div class="px-6 py-8">
-                  <h4 class="mt-4 h-16 text-2xl font-semibold text-white">
+                  <h4 class="mt-4 h-16 text-2xl md:text-xl font-semibold text-white">
                     <span class="">Viajes</span>
                   </h4>
                 </div>
@@ -127,10 +140,10 @@ class Services extends React.Component {
 
           <a href="#/hogar">
             <div class="flex w-full">
-              <div class="bg-blue-dark relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl w-52 md:w-52 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
+            <div class="bg-blue-base relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl w-52 md:w-36 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
                 <FaHome class="w-full rounded-t-xl text-white h-24 md:h-32 pt-8" />
                 <div class="px-6 py-8">
-                  <h4 class="mt-4 h-16 text-2xl font-semibold text-white">
+                  <h4 class="mt-4 h-16 text-2xl md:text-xl font-semibold text-white">
                     <span class="">Hogar</span>
                   </h4>
                 </div>
@@ -140,10 +153,10 @@ class Services extends React.Component {
 
           <a href="#/innovadores">
             <div class="flex w-full">
-              <div class="bg-blue-base relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl w-52 md:w-52 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
+            <div class="bg-blue-bright relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl w-52 md:w-36 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
                 <TbDrone class="w-full rounded-t-xl text-white h-24 md:h-32 pt-8" />
                 <div class="px-6 py-8">
-                  <h4 class="mt-4 h-16 text-2xl font-semibold text-white">
+                  <h4 class="mt-4 h-16 text-2xl md:text-xl font-semibold text-neutral-600">
                     <span class="">Innovadores</span>
                   </h4>
                 </div>
@@ -153,10 +166,10 @@ class Services extends React.Component {
 
           <a href="#/fianzas">
             <div class="flex w-full">
-              <div class="bg-blue-bright relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl w-52 md:w-52 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
+              <div class="bg-blue-medium relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl w-52 md:w-36 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
                 <FaMoneyBillWaveAlt class="w-full rounded-t-xl text-white h-24 md:h-32 pt-8" />
                 <div class="px-6 py-8">
-                  <h4 class="mt-4 h-16 text-2xl font-semibold text-neutral-600">
+                  <h4 class="mt-4 h-16 text-2xl md:text-xl font-semibold text-white">
                     <span class="">Fianzas</span>
                   </h4>
                 </div>
