@@ -32,56 +32,65 @@ function App() {
   return (
     <div className="App">
 
-        <Navbar />
-        <Whatsapp />
+      <Navbar />
+      <Whatsapp />
 
-        <Routes>
-          <Route path="/" element={<>
-            <Home />
-            <Quienes />
-            <Testimonios />
-            <Socios />
-            <Cultura />
-            <Services />
-            <Clientes />
-          </>} />
-          <Route path="/individuales" element={<>
-            <Individual />
-          </>} />
-          <Route path="/pymes" element={<>
-            <Pymes />
-          </>} />
-          <Route path="/corporativo" element={<>
-            <Corporativo />
-          </>} />
-          <Route path="/vehiculo" element={<>
-            <Vehiculos />
-          </>} />
-          <Route path="/atencionmedica" element={<>
-            <AsistMedica />
-          </>} />
-          <Route path="/accidentespersonales" element={<>
-            <AccidentesPersonales />
-          </>} />
-          <Route path="/vida" element={<>
-            <Vida />
-          </>} />
-          <Route path="/viajes" element={<>
-            <Viajes />
-          </>} />
-          <Route path="/hogar" element={<>
-            <Hogar />
-          </>} />
-          <Route path="/innovadores" element={<>
-            <Innovadores />
-          </>} />
-          <Route path="/fianzas" element={<>
-            <Fianzas />
-          </>} />
-        </Routes>
-        <Formulario />
-        <Cambio />
-        <Footer />
+      <Routes>
+
+        <Route exact
+          path="/"
+          element={
+            <div>
+              <Home />
+              <Quienes />
+              <Testimonios />
+              <Socios />
+              <Cultura />
+              <Services />
+              <Clientes />
+            </div>
+          }
+        />
+        <Route exact path="/individuales" element={
+        <div>
+          <Individual />
+        </div>
+         }
+        />
+        <Route exact path="/pymes" element={<>
+          <Pymes />
+        </>} />
+        <Route exact path="/corporativo" element={<>
+          <Corporativo />
+        </>} />
+        <Route exact path="/vehiculo" element={<>
+          <Vehiculos />
+        </>} />
+        <Route exact path="/atencionmedica" element={<>
+          <AsistMedica />
+        </>} />
+        <Route exact path="/accidentespersonales" element={<>
+          <AccidentesPersonales />
+        </>} />
+        <Route exact path="/vida" element={<>
+          <Vida />
+        </>} />
+        <Route exact path="/viajes" element={<>
+          <Viajes />
+        </>} />
+        <Route exact path="/hogar" element={<>
+          <Hogar />
+        </>} />
+        <Route path="/innovadores" element={<>
+          <Innovadores />
+        </>} />
+        <Route exact path="/fianzas" element={<>
+          <Fianzas />
+        </>} />
+      </Routes>
+      <Formulario />
+      <Cambio />
+      <Footer />
 
     </div>
   );

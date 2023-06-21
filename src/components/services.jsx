@@ -17,7 +17,7 @@ class Services extends React.Component {
 
   render() {
     return (
-      <section className="overflow-x-hidden bg-white" id="services">
+      <section className="overflow-x-hidden bg-white" id="services_home">
         <h2
           data-aos="fade-right"
           className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-center text-blue-dark pt-32"
