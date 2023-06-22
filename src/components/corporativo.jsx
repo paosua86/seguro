@@ -15,12 +15,17 @@ class Corporativo extends React.Component {
     render() {
         return (
             <section>
-                <div class=" flex flex-col items-center lg:px-3 py-8 mx-auto">
+                <div class=" flex flex-col items-center px-3 py-8 mx-auto">
                     <div class="flex flex-col w-full text-left max-w-max lg:max-w-2xl">
                         <div class="w-full mx-auto">
                             <h2 data-aos="fade-up-left" className="text-4xl lg:text-5xl pb-14 pt-40 text-blue-dark">Seguros CORPORATIVOS</h2>
                             <h3 className="text-2xl lg:text-3xl pb-1"> Tu compañía y tu personal siempre protegidos</h3>
                         </div>
+                        <img
+                            className="flex flex-col items-center"
+                            src="images/corporativo.png"
+                            alt="accidentes"
+                        />
                     </div>
                 </div>
                 <div class=" items-center w-full px-5">

@@ -76,7 +76,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import icono from '/images/logo-asegbrok.png';
+
 
 
 function Navbar () {
@@ -123,7 +123,7 @@ function Navbar () {
     return (
       <nav class="bg-white border-gray-200 dark:bg-gray-900 fixed inset-x-0 top-0 z-50">
         <div class="max-w-full flex flex-wrap items-center justify-between mx-auto p-4">
-          <a href="/" class="flex items-center">
+          <a href="http://localhost:5173/seguro/" class="flex items-center">
             <img data-aos="fade-right"
               className="mr-3 w-32 md:w-40 lg:w-80"
               src="images/logo-asegbrok.png"

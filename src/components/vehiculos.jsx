@@ -15,7 +15,7 @@ class Vehiculos extends React.Component {
     render() {
         return (
             <section>
-                <div class="flex flex-col items-center lg:px-3 py-8 mx-auto">
+                <div class="flex flex-col items-center px-3 py-8 mx-auto">
                     <div class="flex flex-col w-full text-left max-w-max lg:max-w-2xl">
                         <div class="w-full mx-auto">
                             <h2 data-aos="fade-up-left" className="text-4xl lg:text-5xl pb-14 pt-40 text-blue-dark">Seguros para VEHÍCULOS</h2>
