@@ -43,11 +43,11 @@ function App() {
             <div>
               <Home />
               <Quienes />
-              <Testimonios />
               <Socios />
               <Cultura />
               <Services />
               <Clientes />
+              <Testimonios />
             </div>
           }
         />
