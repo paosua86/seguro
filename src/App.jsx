@@ -24,6 +24,8 @@ import Fianzas from './components/fianzas';
 import Quienes from './components/quienes';
 import Socios from './components/socios';
 import Vida from './components/vida';
+import Riesgos from './components/riesgo';
+import Reaseguro from './components/reaseguro';
 
 
 
@@ -46,6 +48,8 @@ function App() {
               <Socios />
               <Cultura />
               <Services />
+              <Reaseguro />
+              <Riesgos />
               <Clientes />
               <Testimonios />
             </div>
