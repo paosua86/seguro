@@ -28,9 +28,10 @@ class Riesgos extends React.Component {
             className="transition duration-300 ease-in-out delay-150 transform shadow-2xl rounded-xl"
           >
             <img
-              src="/images/par360.png"
-              alt="Riesgos y Coberturas"
               className="rounded-xl"
+              src="images/par360.png"
+              alt="Riesgos y Coberturas"
+
             />
           </div>
         </div>

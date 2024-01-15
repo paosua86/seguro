@@ -21,10 +21,9 @@ class Reaseguro extends React.Component {
         </p>
         <p data-aos="fade-left" class="text-lg mb-12 leading-relaxed text-gray-500">
         Nuestras alianzas nos permiten lograr una eficiencia en la colocación de sus programas de seguros y administración de sus riesgos por medio de nuestro partner estratégico <a href="https://www.howdengroup.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
-            Holwen
-          </a> Specialty.
+            HolwenSpecialty
+          </a> .
         </p>
-
       </section>
     );
   }
