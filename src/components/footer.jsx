@@ -19,7 +19,7 @@ class Footer extends React.Component {
               Shyris N34 - 152 y Holanda, Edificio Shyris Center, Piso 4
             </div>
             <div className="mb-4">+ 593 2 4799 917</div>
-            <div className="mb-4">+ 593 998 049 134</div>
+            <div className="mb-4">+ 593 96 047 2777</div>
             <div>info@asegbrok.com.ec</div>
           </div>
           </div>
