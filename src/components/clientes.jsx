@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useTranslation } from 'react-i18next'; // Asegúrate de importar useTranslation
+import { useTranslation } from 'react-i18next';
 
 class Clientes extends React.Component {
     componentDidMount() {
@@ -13,7 +13,7 @@ class Clientes extends React.Component {
     }
 
     render() {
-        const { t } = this.props; // Asume que t se pasa como prop a tu componente
+        const { t } = this.props;
         return (
             <section className="overflow-x-hidden px-4 py-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-24">
                 <h2 data-aos="fade-right" className="py-20 text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-center text-blue-dark">

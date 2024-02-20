@@ -27,7 +27,7 @@ import Socios from './components/socios';
 import Vida from './components/vida';
 import Riesgos from './components/riesgo';
 import Reaseguro from './components/reaseguro';
-
+import CookieConsent from './components/CookieConsent';
 
 
 
@@ -53,6 +53,7 @@ function App() {
               <Riesgos />
               <Clientes />
               <Testimonios />
+              <CookieConsent />
             </div>
           }
         />

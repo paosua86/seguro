@@ -344,5 +344,166 @@
       "Pet coverage"
     ],
     "cotizar": "Get a Quote »"
+  },
+  "innovadores": {
+    "segurosInnovadoresTitulo": "INNOVATIVE Insurance",
+    "segurosVanguardistas": "Cutting-edge insurance at your fingertips",
+    "cyberRiskTitulo": "Cyber Risk",
+    "cyberRiskDescripcion": "An insurance policy that covers your company's digital and technological area. It protects against hacking, electronic fraud, cyber extortion, information theft, data kidnapping, and more.",
+    "dronesTitulo": "Drones",
+    "dronesDescripcion": "An insurance that covers damages your drone may cause across a wide range of professional uses.",
+    "stockThroughputTitulo": "STOCK THROUGHPUT STP",
+    "stockThroughputDescripcion": "Insurance that covers goods transported throughout the entire supply chain, from the journey's start at the origin factory to internal distribution at the final destination, eliminating any coverage gaps.",
+    "directoresAdministradoresTitulo": "Directors and Officers D&O",
+    "directoresAdministradoresDescripcion": "Insurance that covers damages caused to third parties as a result of negligent, reckless acts, errors, or omissions made by the company's directors or officers. It also covers defense costs if there is a lawsuit for such an error.",
+    "parametricoTitulo": "Parametric",
+    "parametricoDescripcion": "Insurance that covers the likelihood of a predefined event, parameter, or index happening, instead of compensating for the actual loss incurred.",
+    "responsabilidadCivilProfesionalTitulo": "Professional Civil Liability",
+    "responsabilidadCivilProfesionalDescripcion": "Insurance that covers damages that the professional may inadvertently cause to their clients through errors or omissions in the performance of their profession.",
+    "cotizar": "Get a Quote »"
+  },
+  "corporativo": {
+    "tituloSeguros": "CORPORATE Insurance",
+    "subtitulo": "Your company and your staff always protected",
+    "queRamosPregunta": "What branches can be insured?",
+    "coberturaTitulo": "Coverage:",
+    "incendio": "Fire",
+    "roboAsalto": "Theft and Assault",
+    "lucroCesante": "Loss of Profit",
+    "fidelidad": "Fidelity",
+    "transporteLogistica": "Transport and Logistics",
+    "equipoElectronico": "Electronic Equipment",
+    "roturaMaquinaria": "Machinery Breakdown",
+    "equipoMaquinaria": "Equipment and Machinery",
+    "todoRiesgoConstruccion": "All Risk Construction",
+    "todoRiesgoMontaje": "All Risk Installation",
+    "todoRiesgoPetroleo": "All Risk Oil",
+    "cascoAereo": "Aircraft Hull",
+    "cascoMaritimo": "Maritime Hull",
+    "segurosVidaTitulo": "Life and Corporate Medical Assistance Insurance",
+    "segurosVidaDescripcion": "Peace of mind for your company's personnel with the best health and life coverage",
+    "vida": "Life",
+    "asistenciaMedica": "Medical Assistance",
+    "seguroDental": "Dental Insurance",
+    "seguroEstudiantil": "Student Insurance",
+    "cotizar": "Get a Quote »"
+  },
+  "pymes": {
+    "titulo": "PYMES Insurance",
+    "subtitulo": "Protect your effort at a low cost.",
+    "queEsElSeguro": "What is PYMES insurance?",
+    "descripcionSeguro": "An insurance designed to cover the assets of small and medium-sized enterprises against various risks they face. Due to a general lack of knowledge, entrepreneurs think insurance is expensive and only affordable by large companies. However, they're mistaken as there are plans specifically tailored for SMEs at relatively low costs compared to the benefits gained.",
+    "comoFunciona": "How does PYMES insurance work?",
+    "funcionamientoSeguro": "In the event of a claim, such as fire, explosion, water damage, theft, machinery breakdown, employee infidelity, among others; the insurance activates by paying compensation to the entrepreneur. Thus, it protects the effort of many years by maintaining their assets, their operation, and preventing bankruptcy.",
+    "necesitoSeguro": "Do I need PYMES insurance?",
+    "necesidadSeguro": "In Ecuador, 9 out of 10 entrepreneurs do not insure their business. However, statistically, 55% of these companies are likely to suffer some type of damage to their facilities, and 40% are at risk of theft. Based on these numbers, and knowing that there are specific plans for SMEs at a low cost, then yes, you probably need this insurance.",
+    "queNegocios": "What businesses can be insured?",
+    "queNegociossub": "Check out the business lines that could apply:",
+    "negociosListado": [
+      "Small Hotels and Hostels",
+      "Hardware Stores",
+      "Bars and Nightclubs",
+      "Offices and Workshops",
+      "Restaurants and Cafeterias",
+      "Clinics and Consulting Rooms",
+      "Schools",
+      "General Trade"
+    ],
+    "motivosFavor": "4 Reasons in Your Favor:",
+    "motivosListado": [
+      "Low Costs",
+      "Doesn't matter if you're an owner or a tenant",
+      "No inspection required to insure",
+      "No need to send lists"
+    ],
+    "beneficiosSeguro": "Benefits of your PYMES insurance:",
+    "beneficiosListado": [
+      "Legal Assistance",
+      "On-site medical doctor for your company",
+      "PC Assistance for computers",
+      "Connection with professionals",
+      "Protection of glass, signs, and billboards",
+      "Assistance for plumbing, electricity, locksmithing"
+    ],
+    "cotizar": "Get a Quote »"
+  },
+  "vehiculos": {
+    "titulo": "VEHICLE Insurance",
+    "subtitulo": "The best for your investment",
+    "queIncluyeTitulo": "What's included?",
+    "queIncluyeDescripcion": "All risks, including collisions, overturns, total and partial theft, malicious damage, riot and strike, civil unrest, fire and/or lightning, explosion, civil commotion, vandalism, glass breakage, projectile impacts, building collapse, falling foreign objects, from aircraft and their parts and/or walls and/or poles and/or trees, bridge and road collapse, landslides, land slipping, natural events.",
+    "coberturaTitulo": "Coverage:",
+    "coberturaItems": [
+      "Property Support",
+      "Liability Coverage from LUC USD 25,000.00",
+      "Personal Accident/Occupant from USD 5,000.00",
+      "Medical Expenses/Occupant from USD 3,000.00",
+      "Funeral Expenses/Occupant from USD 200.00",
+      "Accidental Death Coverage for the policyholder as a result of a covered event USD 10,000.00.",
+      "24/7 Vehicle and Legal Assistance, 365 days a year."
+    ],
+    "soatIncluidoTitulo": "SOAT Included",
+    "soatIncluidoDescripcion": "MANDATORY Insurance for all public and private vehicles that travel within Ecuadorian territory, covering bodily harm caused to people in traffic accidents; whether they are pedestrians, passengers, or drivers.",
+    "ventajasTitulo": "Advantages and innovations when hiring with us:",
+    "coberturaMascotasTitulo": "Pet coverage:",
+    "coberturaMascotasDescripcion": "Home medical consultation or phone consultation in case of your pet's accident.",
+    "conductorElegidoTitulo": "Designated driver:",
+    "conductorElegidoDescripcion": "If you have an event and consume alcohol, you can request a designated driver.",
+    "conductorReemplazoTitulo": "Replacement driver:",
+    "conductorReemplazoDescripcion": "If you suffer an ailment that prevents you from continuing to drive, receive replacement driver assistance.",
+    "asistenciaExequialTitulo": "Funeral assistance:",
+    "asistenciaExequialDescripcion": "In case of fatal car accidents, receive this assistance to cover funeral expenses.",
+    "asistenciaSecuestroExpressTitulo": "Express Kidnapping Assistance:",
+    "asistenciaSecuestroExpressDescripcion": "Assistance for theft through withdrawal of money on debit and credit cards under express kidnapping conditions.",
+    "autoSustitutoTitulo": "Substitute car:",
+    "autoSustitutoDescripcion": "Receive a substitute car to get around while your vehicle is being repaired.",
+    "cotizar": "Get a Quote »"
+  },
+  "viajes": {
+    "titulo": "TRAVEL Insurance",
+    "subtitulo": "During your trip, you could have a plan that addresses these risks. We're part of your luggage.",
+    "porQueContratarTitulo": "Why take out travel insurance?",
+    "porQueContratarDescripcion": "If you travel for pleasure, business, or studies, we offer the best benefits and coverages for your journey.",
+    "ventajasTitulo": "Advantages and innovations when hiring with us",
+    "ventajas": [
+      "No age limit",
+      "Low Cost",
+      "Extensive Coverages",
+      "Quick reimbursements",
+      "Medical expenses for accidents and/or diseases"
+    ],
+    "serviciosComplementariosTitulo": "Complementary services",
+    "serviciosComplementarios": [
+      "Assistance for loss and/or theft of documents.",
+      "Legal advice for lawyer fees and/or advance of bonds.",
+      "Lost luggage up to the contracted plan limit starting from 72 hours after being lost.",
+      "Repatriation of the injured or sick by medical recommendation.",
+      "Repatriation in case of death."
+    ],
+    "cotizar": "Get a Quote »"
+  },
+  "vida": {
+    "titulo": "LIFE Insurance",
+    "subtitulo": "We can't guarantee your life... but we CAN ensure the financial peace of your loved ones and the protection of your assets.",
+    "porQueSeguroTitulo": "Why life insurance?",
+    "razones": {
+      "sostieneFamilia": "Supports your family's lifestyle",
+      "ayudaDeudas": "Helps you pay off debts",
+      "pagoEstudios": "Supports your children's education expenses",
+      "pagoHipoteca": "Supports your mortgage payments"
+    },
+    "beneficiosTitulo": "Benefits",
+    "beneficios": {
+      "seguroVida": "Life Insurance up to USD 1,000,000",
+      "vidaAhorro": "Pure Life or Life plus Savings products",
+      "planesJubilacion": "Retirement Plans",
+      "becaEstudiantil": "Scholarship"
+    },
+    "cotizar": "Get a Quote »"
+  },
+  "cookieConsent": {
+    "message": "We use cookies to enhance your experience on our website. By continuing, you agree to our use of cookies.",
+    "acceptButton": "Accept",
+    "managingCookiesDescription": "To manage or delete cookies, please select your browser:"
   }
 }

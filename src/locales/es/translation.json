@@ -361,6 +361,150 @@
     "responsabilidadCivilProfesionalTitulo": "Responsabilidad civil profesional",
     "responsabilidadCivilProfesionalDescripcion": "Es un seguro que cubre los daños que, involuntariamente, por sus errores u omisiones, el profesional haya podido causar a sus clientes en el ejercicio de su profesión.",
     "cotizar": "Cotizar »"
+  },
+  "corporativo": {
+    "tituloSeguros": "Seguros CORPORATIVOS",
+    "subtitulo": "Tu compañía y tu personal siempre protegidos",
+    "queRamosPregunta": "Qué ramos se pueden asegurar?",
+    "coberturaTitulo": "Cobertura:",
+    "incendio": "Incendio",
+    "roboAsalto": "Robo y Asalto",
+    "lucroCesante": "Lucro Cesante",
+    "fidelidad": "Fidelidad",
+    "transporteLogistica": "Transporte y Logística",
+    "equipoElectronico": "Equipo Electrónico",
+    "roturaMaquinaria": "Rotura de Maquinaria",
+    "equipoMaquinaria": "Equipo y Maquinaria",
+    "todoRiesgoConstruccion": "Todo Riesgo Construcción",
+    "todoRiesgoMontaje": "Todo Riesgo Montaje",
+    "todoRiesgoPetroleo": "Todo Riesgo Petróleo",
+    "cascoAereo": "Casco Aéreo",
+    "cascoMaritimo": "Casco Marítimo",
+    "segurosVidaTitulo": "Seguros de Vida y Asistencia Médica Corporativa",
+    "segurosVidaDescripcion": "Tranquilidad para el personal de tu empresa con la mejor cobertura de salud y vida",
+    "vida": "Vida",
+    "asistenciaMedica": "Asistencia Médica",
+    "seguroDental": "Seguro Dental",
+    "seguroEstudiantil": "Seguro Estudiantil",
+    "cotizar": "Cotizar »"
+  },
+  "pymes": {
+    "titulo": "Seguros para PYMES",
+    "subtitulo": "Protege tu esfuerzo a un costo bajo.",
+    "queEsElSeguro": "Qué es el seguro PYMES?",
+    "descripcionSeguro": "Es un seguro diseñado para cubrir el patrimonio de empresas pequeñas y medianas frente a los diversos riesgos a las que están expuestas. Por desconocimiento general los emprendedores piensan que el seguro es muy caro y que sólo lo pueden costear las grandes compañías. Sin embargo cometen un error porque hay planes hechos a la medida específicamente para Pymes y su costo es relativamente bajo a comparación del beneficio adquirido.",
+    "comoFunciona": "Cómo funciona el seguro PYMES?",
+    "funcionamientoSeguro": "En caso de un siniestro, tal como un incendio, explosión, daño por agua, robo, rotura de maquinaria, infidelidad de algún empleado, entre otros; el seguro se activa pagando una indemnización al emprendedor. De tal forma que termina protegiendo su esfuerzo de varios años manteniendo su patrimonio, su operación y evitando su quiebra.",
+    "necesitoSeguro": "Necesito el seguro PYMES?",
+    "necesidadSeguro": "En el Ecuador 9 de cada 10 emprendedores no aseguran su negocio. Sin embargo, estadísticamente el 55% de estas empresas son propensas a padecer algún tipo de daño en sus instalaciones y el 40% corre el riesgo de sufrir algún tipo de robo. Basado en estos números, y conociendo que existen planes específicos para Pymes a un costo bajo, entonces sí, probablemente necesites este seguro.",
+    "queNegocios": "Qué negocios se pueden asegurar?",
+    "queNegociossub": "Mira los giros de negocios que podrían aplicar:",
+    "negociosListado": [
+      "Hoteles pequeños y Hostales",
+      "Ferreterías",
+      "Bares y Discotecas",
+      "Oficinas y Talleres",
+      "Restaurantes y Cafeterías",
+      "Clínicas y consultorios",
+      "Colegios",
+      "Comercio en General"
+    ],
+    "motivosFavor": "4 Motivos a tu Favor:",
+    "motivosListado": [
+      "Costos Bajos",
+      "No importa si eres dueño o arrendatario",
+      "No requieres inspección para poder asegurar",
+      "No tienes que enviar listados"
+    ],
+    "beneficiosSeguro": "Beneficios de tu seguro PYMES:",
+    "beneficiosListado": [
+      "Asistencia Legal",
+      "Médico a domicilio para tu empresa",
+      "Asistencia PC para computadores",
+      "Asistencia Conexión con profesionales",
+      "Protección de vidrios, letreros y vallas",
+      "Asistencia para plomería, electricidad, cerrajería"
+    ],
+    "cotizar": "Cotizar »"
+  },
+  "vehiculos": {
+    "titulo": "Seguros para VEHÍCULOS",
+    "subtitulo": "Lo mejor para tu inversión",
+    "queIncluyeTitulo": "Qué incluye?",
+    "queIncluyeDescripcion": "Todo riesgo, incluyendo, choques, volcaduras, robo total y parcial, daño malicioso, motín y huelga, alborotos populares,incendio y/o rayo, explosión, conmoción civil, vandalismo, rotura de vidrios, impacto de proyectiles, desplome de edificios, caída de objetos extraños, de aeronaves y sus partes y/o muros y/o postes y/o árboles, derrumbe de puentes y carreteras, deslaves, deslizamiento de tierra, eventos de la naturaleza.",
+    "coberturaTitulo": "Cobertura:",
+    "coberturaItems": [
+      "Amparo Patrimonial",
+      "Responsabilidad Civil desde LUC USD 25,000.00",
+      "Accidentes personales/ocupante desde USD 5,000.00",
+      "Gastos médicos/ocupante desde USD 3,000.00",
+      "Gastos de sepelio/ocupante desde USD 200.00",
+      "Cobertura de Muerte Accidental para el titular de la póliza a consecuencia de un evento cubierto en la misma USD 10,000.00.",
+      "Asistencia Vehicular y legal las 24 horas del día, 365 días del año."
+    ],
+    "soatIncluidoTitulo": "Soat Incluido",
+    "soatIncluidoDescripcion": "Seguro OBLIGATORIO para todos los vehículos públicos y privados que transiten dentro del territorio ecuatoriano, que ampara los daños corporales que causen a las personas en accidentes de tránsito; ya sean estos peatones, pasajeros o conductores.",
+    "ventajasTitulo": "Ventajas y novedades al contratar con nosotros:",
+    "coberturaMascotasTitulo": "Cobertura de mascotas:",
+    "coberturaMascotasDescripcion": "Consulta médica a domicilio o consulta telefónica en caso de accidente de tu mascota.",
+    "conductorElegidoTitulo": "Conductor elegido:",
+    "conductorElegidoDescripcion": "Si tienes algún evento y consumas bebidas alcohólicas puedes solicitar un conductor elegido.",
+    "conductorReemplazoTitulo": "Conductor reemplazo:",
+    "conductorReemplazoDescripcion": "Si sufres alguna dolencia que te imposibilite continuar conduciendo recibe la asistencia de conductor reemplazo.",
+    "asistenciaExequialTitulo": "Asistencia exequial:",
+    "asistenciaExequialDescripcion": "Ante accidentes automovilísticos fatales recibe esta asistencia para poder cubrir gastos exequiales.",
+    "asistenciaSecuestroExpressTitulo": "Asistencia Secuestro Express:",
+    "asistenciaSecuestroExpressDescripcion": "Asistencia por robo a través de retiro de dinero en tarjeta de débito y crédito bajo modalidad secuestro express.",
+    "autoSustitutoTitulo": "Auto sustituto:",
+    "autoSustitutoDescripcion": "Recibe un Auto sustituto para poder movilizarte mientras tu vehículo se encuentre en reparación.",
+    "cotizar": "Cotizar »"
+  },
+  "viajes": {
+    "titulo": "Seguros para VIAJES",
+    "subtitulo": "Durante tu viaje podrías tener un plan que solucione estos riesgos. Somos parte del equipaje.",
+    "porQueContratarTitulo": "Por qué contratar?",
+    "porQueContratarDescripcion": "Si viajas por placer, negocios o estudios te ofrecemos los mejores beneficios y coberturas para tu viaje.",
+    "ventajasTitulo": "Ventajas y novedades al contratar con nosotros",
+    "ventajas": [
+      "Sin límite de edad",
+      "Bajo Costo",
+      "Amplias Coberturas",
+      "Agilidad en rembolsos",
+      "Gastos médicos por accidentes y/o enfermedades"
+    ],
+    "serviciosComplementariosTitulo": "Servicios complementarios",
+    "serviciosComplementarios": [
+      "Asistencia por extravío y/o robo de documentos.",
+      "Asesoría legal para honorarios de abogados y/o adelanto de fianzas.",
+      "Pérdida de equipaje hasta el límite del plan contratado a partir de 72 horas de extraviado.",
+      "Repatriación de herido o enfermo por recomendación médica.",
+      "Repatriación en caso de fallecimiento."
+    ],
+    "cotizar": "Cotizar »"
+  },
+  "vida": {
+    "titulo": "Seguros de VIDA",
+    "subtitulo": "No podemos garantizar tu vida ... pero SÍ la tranquilidad económica de quienes amas y la protección de tu patrimonio.",
+    "porQueSeguroTitulo": "Por qué un seguro de vida?",
+    "razones": {
+      "sostieneFamilia": "Sostiene el estilo de vida de tu familia",
+      "ayudaDeudas": "Te ayuda a pagar deudas",
+      "pagoEstudios": "Sostiene el pago de estudios de tus hijos",
+      "pagoHipoteca": "Sostiene el pago de hipoteca de tu casa"
+    },
+    "beneficiosTitulo": "Beneficios",
+    "beneficios": {
+      "seguroVida": "Seguros de Vida de hasta de USD 1.000.000",
+      "vidaAhorro": "Productos de Vida Pura o Vida más Ahorro",
+      "planesJubilacion": "Planes de Jubilación",
+      "becaEstudiantil": "Beca estudiantil"
+    },
+    "cotizar": "Cotizar »"
+  },
+  "cookieConsent": {
+    "message": "Usamos cookies para mejorar tu experiencia en nuestra web. Al continuar, aceptas nuestro uso de cookies.",
+    "acceptButton": "Aceptar",
+    "managingCookiesDescription": "Para gestionar o eliminar las cookies, por favor selecciona tu navegador:"
   }
 
 }
