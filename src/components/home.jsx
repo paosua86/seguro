@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './home_animation.css';
+import { useTranslation } from 'react-i18next';
 
 class Home extends React.Component {
   componentDidMount() {
@@ -12,6 +13,7 @@ class Home extends React.Component {
     AOS.refresh();
   }
   render() {
+    const { t } = this.props;
     return (
       <section className="overflow-x-hidden text-center px-4 py-1 mx-auto mb-20 max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-1" id="home">
         <div className="home-content">
@@ -19,18 +21,18 @@ class Home extends React.Component {
             className="flex flex-wrap justify-center overflow-hidden text-neutral-600 text-5xl md:text-6xl lg:text-7xl mb-2 mt-8 pt-24 md:pt-48 lg:pt-64"
             data-aos="fade-up"
           >
-            TE OFRECEMOS LA SEGURIDAD DE VIVIR,
+           {t("home.title1")}
             <br />
-            vamos junto a ti
+            {t("home.title2")}
           </h1>
           <p className="text-lg font-thin mb-6" data-aos="fade-left">
-            Seguros Innovadores, Presencial Local, Regional e Internacional.
+          {t("home.subtitle")}
           </p>
           <a
             href="#contact"
             className="btn_initial inline-block px-8 py-4 bg-blue-base rounded-xl shadow-lg text-white text-2xl font-thin transition duration-500 ease-in-out mt-12 relative z-10"
           >
-            Cotiza tu seguro
+            {t("home.quoteButton")}
           </a>
         </div>
         <div className="view">
@@ -75,4 +77,8 @@ class Home extends React.Component {
   };
 }
 
-export default Home;
+export default function HomeWithTranslation() {
+  const { t } = useTranslation();
+
+  return <Home t={t} />;
+}

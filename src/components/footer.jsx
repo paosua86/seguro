@@ -1,17 +1,18 @@
 import React from "react";
 import { ImLinkedin, ImInstagram  } from "react-icons/im";
 import { FaFacebookSquare } from "react-icons/fa";
+import { useTranslation } from 'react-i18next';
 
+const Footer = () => {
+  const { t } = useTranslation();
 
-class Footer extends React.Component {
-  render() {
-    return (
+  return (
       <footer className="bg-black text-white flex justify-around flex-col md:flex-row">
         <div className="flex justify-between items-center px-9 py-8 gap-7">
           <div className="flex flex-col">
-            <div className="mb-4">Dirección Matriz:</div>
-            <div className="mb-4">Teléfono :</div>
-            <div className="mb-4">Celular :</div>
+            <div className="mb-4">{t('footer.direccionTitulo')}</div>
+            <div className="mb-4">{t('footer.telefonoTitulo')}</div>
+            <div className="mb-4">{t('footer.celularTitulo')}</div>
             <div>Email :</div>
           </div>
           <div className="flex flex-col">
@@ -25,7 +26,7 @@ class Footer extends React.Component {
           </div>
           <div>
           <div className="flex flex-col items-center py-8">
-            <div className="mb-4 ">Síguenos</div>
+            <div className="mb-4 ">{t('footer.siguenos')}</div>
             <div className="flex items-center">
               <a
                 href="https://www.facebook.com/Asegbrok/"
@@ -58,6 +59,6 @@ class Footer extends React.Component {
       </footer>
     );
   }
-}
+
 
 export default Footer;

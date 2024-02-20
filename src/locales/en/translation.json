@@ -1,0 +1,348 @@
+{
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "aboutUs": "About Us",
+    "reportIncident": "Report an Incident"
+  },
+  "home": {
+    "title1": "WE OFFER YOU THE SECURITY TO LIVE",
+    "title2": "walking alongside you",
+    "subtitle": "Innovative Insurance, Local, Regional, and International Presence.",
+    "quoteButton": "Get Your Quote"
+  },
+  "riesgos": {
+    "gestionYAdministracionDeRiesgos": "Risk Management and Administration",
+    "descripcionRiesgos1": "We provide technical support in risk analysis for companies, offering a range of services through a specialized team in different areas of risk management, delivering a value proposition to our clients by identifying their needs and recommending solutions to safeguard their heritage, assets, and employees.",
+    "descripcionRiesgos2": "We aim for continuous improvement in risk for companies, helping to reduce the likelihood and severity of an incident that could affect the client in the future.",
+    "altRiesgosYCoberturas": "Risks and Coverages"
+  },
+  "quienesSomos": {
+    "titulo": "Who We Are",
+    "experiencia": {
+      "titulo": "Experience",
+      "descripcion": "Established 20 years ago, we are part of an expert group in insurance and reinsurance brokerage and in the development of mass markets, positioning ourselves in the national and international insurance market, both public and private. We strive to meet our clients' needs, efficiently managing their risks with comprehensive advice for their insurance program that includes: risk management, innovation, technology, and new insurance products. While some focus on profitability, we focus on customer service, innovative solutions, and above all, doing things right, strengthening our current management and incorporating new products in general branches, life, medical assistance, and mass insurance."
+    },
+    "internacional": {
+      "titulo": "International",
+      "descripcion1": "We have an international partner, <a href='https://www.howdengroup.com/' target='_blank' rel='noopener noreferrer'>Howden Group</a>, with <strong>specialized professionals</strong> in different business lines, being part of a global network. This alliance allows us to offer our clients a variety of products and innovative solutions tailored to their needs, structuring insurance programs specifically for them.",
+      "descripcion2": "Howden Group is a leader in Latin America and globally boasts USD 15.9 billion in premiums, continuing to grow through new partnerships and acquisitions that have resulted in a 48% revenue growth and a 50% increase in EBITDA."
+    },
+    "responsabilidadSocial": {
+      "titulo": "Social Responsibility",
+      "descripcion": "At Asegbrok, we understand the importance of being a socially responsible company. We promote social and economic benefits for our community, primarily highlighting the following:",
+      "colaboradores": {
+        "titulo": "Collaborators",
+        "descripcion": "Generation of in-house projects involving staff and shareholders"
+      },
+      "medioAmbiente": {
+        "titulo": "Environment",
+        "descripcion": "We advocate for environmental care through reforestation projects, energy saving, and recycling initiatives."
+      },
+      "sociedad": {
+        "titulo": "Society",
+        "descripcion": "We continuously contribute to various foundations such as: Fundación Hermano Miguel, Hogar Santa Lucía, among others."
+      }
+    },
+    "imagenes": {
+      "alt1": "Social Project 1",
+      "descripcion1": "We supported the reconstruction of <strong>20 homes in the province of Manabí</strong> after the 2016 earthquake that affected the Ecuadorian coast.",
+      "alt2": "Social Project 2",
+      "descripcion2": "The project <strong>\"Mi propósito en Bahía\" was born as a corporate initiative</strong>, and during its development, it was decided to include actors with experience in community resettlements, as well as shareholders, employees, and the beneficiary community itself.",
+      "alt3": "Social Project 3",
+      "descripcion3": "The focus was not only on reconstructing homes but also had a <strong>social aspect contributing to the affected people with training, medical and psychological care,</strong> creating tools to reactivate their personal and family economy."
+    }
+  },
+  "sociosEstrategicos": {
+    "titulo": "Strategic Partners"
+  },
+  "nuestraCultura": {
+    "titulo": "Our Culture",
+    "descripcion": "Culture is a critical component of what makes Asegbrok unique. We operate as a team committed to collaboration, integrity, and a client-focused approach to deliver exceptional solutions.",
+    "valores": [
+      {
+        "titulo": "Management",
+        "icono": "bx bx-time",
+        "descripcion": "Advice and technical support on a day-to-day basis"
+      },
+      {
+        "titulo": "Work",
+        "icono": "bx bx-briefcase-alt-2",
+        "descripcion": "Risk management and policy review."
+      },
+      {
+        "titulo": "Support",
+        "icono": "bx bx-happy",
+        "descripcion": "Claims management and assistance in major incidents"
+      },
+      {
+        "titulo": "Delivery",
+        "icono": "bx bx-phone-call",
+        "descripcion": "Innovative solutions with the best coverages and rates."
+      }
+    ]
+  },
+  "services": {
+    "titulo": "A Variety of Insurance for Every Need",
+    "categorias": [
+      {
+        "titulo": "Individual",
+        "descripcion": "Travel, life, and major medical expenses"
+      },
+      {
+        "titulo": "SMEs",
+        "descripcion": "Protects the assets of small and medium-sized enterprises."
+      },
+      {
+        "titulo": "Corporate",
+        "descripcion": "Your company and your staff always protected"
+      },
+      {
+        "titulo": "Vehicles"
+      },
+      {
+        "titulo": "Medical Assistance"
+      },
+      {
+        "titulo": "Personal Accidents"
+      },
+      {
+        "titulo": "Life"
+      },
+      {
+        "titulo": "Travel"
+      },
+      {
+        "titulo": "Home"
+      },
+      {
+        "titulo": "Innovative"
+      },
+      {
+        "titulo": "Bonds"
+      }
+    ]
+  },
+  "reinsurance": {
+    "title": "Reinsurance",
+    "description1": "We have alliances in Ecuador, Central America, America, Europe, and Asia, allowing us to offer our clients flexible solutions suited to the specifics of each business turn.",
+    "description2": "Our alliances enable us to achieve efficiency in placing their insurance programs and managing their risks through our strategic partner <a href='https://www.howdengroup.com/' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800'>HowdenSpecialty</a>."
+  },
+  "clientes": {
+    "titulo": "Some Clients from Various Sectors"
+  },
+  "testimonios": {
+    "titulo": "Our Clients Vouch for Us",
+    "tweets": [
+      {
+        "id": 1,
+        "username": "Roberto Barriga",
+        "handle": "Vehicles",
+        "url": "https://www.facebook.com/roberto.barriga.520?mibextid=ZbWKwL",
+        "text": "I've been a client of Asegbrok for several years, and I'm very satisfied with the service and advice provided all this time. Highly recommended."
+      },
+      {
+        "id": 2,
+        "username": "David Suarez",
+        "handle": "Vehicles",
+        "url": "https://www.facebook.com/profile.php?id=100013553477889",
+        "text": "I am pleased to express my gratitude to Asegbrok, a company that fulfills 100% of what is agreed upon. I am a highly satisfied user and would invite all my friends, acquaintances, and others to be part of this prestigious company."
+      },
+      {
+        "id": 3,
+        "username": "Daniela Suarez Bonilla",
+        "handle": "Medical Assistance",
+        "url": "https://www.facebook.com/dany.suarez.31149",
+        "text": "For those seeking advice on taking out medical assistance insurance, Asegbrok offers a very pleasant service. I recommend them."
+      },
+      {
+        "id": 4,
+        "username": "ZRestaurants",
+        "handle": "General Branches",
+        "url": "https://www.facebook.com/zrestaurantes",
+        "text": "Asegbrok has been our Insurance Advisor for several years; the service and advice provided are outstanding."
+      },
+      {
+        "id": 5,
+        "username": "Lourdes Jarrin",
+        "handle": "Home",
+        "url": "https://www.facebook.com/lourdes.jarrin.3?mibextid=ZbWKwL",
+        "text": "I entrust my insurance needs to Asegbrok; I'm very satisfied with the advice provided."
+      },
+      {
+        "id": 6,
+        "username": "Los Choris - Mauricio Delgado",
+        "handle": "General Branches",
+        "url": "https://www.facebook.com/loschorisec/",
+        "text": "We have been working with Asegbrok for several years, and the service and advice provided are agile and timely."
+      }
+    ]
+  },
+  "formulario": {
+    "titulo": "Contact Us",
+    "intro": "Our team looks forward to handling your request.",
+    "nombre": "Enter your name",
+    "email": "Enter your email",
+    "celular": "Enter your phone number",
+    "mensaje": "Your message",
+    "enviar": "Send"
+  },
+  "cambio": {
+    "titulo": "Already Insured? Let Us Help You Switch!",
+    "descripcion": "At Asegbrok, we operate as a team dedicated to collaboration, integrity, and a client-centered approach to deliver exceptional solutions.",
+    "beneficios": [
+      {
+        "texto": "Risk engineering offering inspections and recommendations"
+      },
+      {
+        "texto": "Advantages in the brokerage chain generating economies of scale for the client and avoiding policy duplication"
+      },
+      {
+        "texto": "Alternative insurance solutions and custom-tailored patented tools"
+      },
+      {
+        "texto": "Uniformity in clauses, compliance with regulations, insurers with international presence"
+      }
+    ]
+  },
+  "footer": {
+    "direccionTitulo": "Head Office Address:",
+    "telefonoTitulo": "Telephone:",
+    "celularTitulo": "Cell Phone:",
+    "siguenos": "Follow Us"
+  },
+  "accidentesPersonales": {
+    "titulo": "Personal Accident Insurance",
+    "subtitulo": "A wide range of coverages - 24/7, 365 days a year, anywhere in the world - Affordable prices - Fewer restrictions by risk type - Complements Medical Assistance coverage",
+    "coberturasPrincipalesTitulo": "Key Coverages",
+    "cobertura1": "Accidental death",
+    "cobertura2": "Total or permanent disability",
+    "cobertura3": "Medical expenses due to accidents",
+    "cobertura4": "Accidental dismemberment",
+    "beneficiosAdicionalesTitulo": "Additional Benefits",
+    "beneficio1": "Funeral expenses for accidental death",
+    "beneficio2": "Daily hospitalization allowance",
+    "beneficio3": "Ambulance service",
+    "beneficio4": "Hospital credit in case of accidents",
+    "beneficio5": "Provider network access to discounts and preferred pricing",
+    "botonCotizar": "Get a Quote »"
+  },
+  "asistMedica": {
+    "tituloAsistenciaMedica": "Medical Assistance Insurance",
+    "subtituloAsistenciaMedica": "Taking care of your and your family's health with comprehensive coverage, supported by the best outpatient and hospital networks nationally and internationally.",
+    "beneficiosYCoberturasTitulo": "Benefits and Coverages",
+    "beneficio1": "Coverage for illnesses and accidents",
+    "beneficio2": "Coverage for pre-existing conditions",
+    "beneficio3": "Maternity coverage",
+    "beneficio4": "No age limits",
+    "beneficio5": "Quick reimbursements",
+    "beneficio6": "Various payment options",
+    "serviciosComplementariosTitulo": "Complementary Services",
+    "servicio1": "Outpatient medical centers without deductible or copayment",
+    "servicio2": "Home doctor visits",
+    "servicio3": "Pharmacy delivery",
+    "servicio4": "Video consultations",
+    "servicio5": "Travel assistance",
+    "servicio6": "Ambulance service",
+    "tituloGastosMedicosMayores": "Major Medical Expenses Insurance",
+    "subtituloGastosMedicosMayores": "Understanding it brings peace of mind",
+    "queEsGMMTitulo": "What is Major Medical Expenses Insurance?",
+    "descripcionGMM1": "As its name suggests, this insurance is designed to face serious illnesses or accidents requiring a high expenditure by the patient for treatment, which generally exceeds the maximum coverage limits of standard health policies.",
+    "comoFuncionaGMMTitulo": "How does Major Medical Expenses Insurance work?",
+    "descripcionGMM2": "This policy won't cover minor illnesses like a cold. It kicks in when, unfortunately, you face a severe illness or a serious accident requiring substantial funds to tackle. This wonderful insurance covers up to USD 500,000 per disability.",
+    "necesitoGMMTitulo": "Do I need Major Medical Expenses Insurance?",
+    "descripcionGMM3": "If you're the cautious type, aware that you or your family might face a serious situation at some point, but you wouldn't want to risk your assets to cover those expenses, then you definitely need this insurance.",
+    "botonCotizar": "Get a Quote »"
+  },
+  "fianzas": {
+    "titulo": "Bond Insurance",
+    "subtitulo": "Support, security, and trust for your contract executions",
+    "imagenAlt": "contract",
+    "coberturaTitulo": "Coverage:",
+    "coberturas": [
+      "Bid seriousness",
+      "Contract fulfillment",
+      "Proper use of advance",
+      "Customs guarantees",
+      "Good quality of materials"
+    ],
+    "botonCotizar": "Get a Quote »"
+  },
+  "hogar": {
+    "titulo": "Home Insurance",
+    "subtitulo": "The best for your family",
+    "beneficiosTitulo": "Main Benefits:",
+    "beneficiosDescripcion": [
+      "Home insurance provides backup and security for our assets, covering the property itself, its contents, electronic equipment, among the main aspects, against contracted risks according to each insurer.",
+      "Home insurance benefits not only the owner and their property; it also brings peace of mind with home assistance services and coverage for any damage or injury caused to a neighbor. Home insurance allows tenants to contract it and protect the contents of the property.",
+      "The best part about this product is its cost, fitting every budget."
+    ],
+    "serviciosTitulo": "The home product is complemented by including assistance services, among the main ones are:",
+    "serviciosListado": [
+      "Electricity",
+      "Locksmithing",
+      "Glazing",
+      "Plumbing",
+      "Content Assistance",
+      "Pet Assistance",
+      "Substitute Husband including: picture hanging, light fixture installation, outlet checks, blind installation"
+    ],
+    "cotizar": "Get a Quote »",
+    "imagenHogarAlt": "home"
+  },
+  "howden": {
+    "tituloLink": "Howden",
+    "subtitulo1": "We are part of the Howden One International Network",
+    "parrafo1": "Howden is the largest international insurance broker outside the United States, offering a range of specialized insurance solutions to clients worldwide.",
+    "datos": [
+      "Ranked sixth in the National Insurance Advisor Rankings",
+      "Over 58,000 insured",
+      "Advantages in the brokerage chain generating economies of scale for the client and avoiding policy duplication",
+      "Over 36,000 claims resolved",
+      "Over 22,300,000 dollars paid in compensations"
+    ],
+    "subtitulo2": "Global Solutions",
+    "parrafo2": "Worldwide service network and agreements with the most important international representations.",
+    "soluciones": [
+      {
+        "imagen": "images/rkh.jpg",
+        "descripcion": "RKH SPECIALTY: A leading independent broker specializing in creating solutions for a wide range of industries and risk classes."
+      },
+      {
+        "imagen": "images/howden.jpg",
+        "descripcion": "HOWDEN: Provides insurance solutions to various clients across Europe, Asia, Latin America, and the Middle East."
+      },
+      {
+        "imagen": "images/ICBA.png",
+        "descripcion": "ICBA: Founded in 2000, ICBA is the world's second-largest independent group of commercial credit insurance brokers."
+      },
+      {
+        "imagen": "images/qual.jpg",
+        "descripcion": "QUAL: The largest international Managing General Agent (MGA) and Lloyds' biggest “Coverholder”."
+      },
+      {
+        "imagen": "images/hwi.png",
+        "descripcion": "HWI: An independent broker providing quick solutions to our clients' interests."
+      }
+    ]
+  },
+  "individual": {
+    "titulo": "Individual Insurance",
+    "subtitulo": "We can't guarantee your life... but we CAN ensure the financial peace of mind for those you love and the protection of your assets.",
+    "imagenAlt": "individual",
+    "principalesSegurosTitulo": "The main individual insurances we can offer you are:",
+    "segurosListado": [
+      "Vehicles",
+      "Medical assistance",
+      "Personal accidents",
+      "Life",
+      "Travel insurance",
+      "Major medical expenses",
+      "Home/property",
+      "Dental plans",
+      "Cancer insurance and treatment",
+      "Pet coverage"
+    ],
+    "cotizar": "Get a Quote »"
+  }
+}

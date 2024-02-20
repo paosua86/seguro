@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css'
+import './i18n';
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/navbar';
 import Whatsapp from './components/whatsapp';

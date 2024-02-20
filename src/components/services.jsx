@@ -1,28 +1,28 @@
 import React from "react";
 import AOS from "aos";
+import { useTranslation } from "react-i18next";
 import "aos/dist/aos.css";
 import { FaCross, FaCreativeCommonsBy, FaCashRegister, FaIndustry, FaCar, FaHandHoldingMedical, FaAccessibleIcon, FaHome, FaMoneyBillWaveAlt} from "react-icons/fa";
 import { BsFillAirplaneFill } from "react-icons/bs";
 import { TbDrone } from "react-icons/tb";
 
+const Services = () => {
+  const { t } = useTranslation();
 
-class Services extends React.Component {
-  componentDidMount() {
+  React.useEffect(() => {
     AOS.init({
       duration: 1200,
       easing: "ease-in-sine",
     });
-    AOS.refresh();
-  }
+  }, []);
 
-  render() {
-    return (
+  return (
       <section className="overflow-x-hidden bg-white" id="services_home">
         <h2
           data-aos="fade-right"
           className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-center text-blue-dark pt-32"
         >
-          Variedad de seguros para cada necesidad
+          {t("services.titulo")}
         </h2>
 
         <div class="py-20 overflow-x-hidden flex flex-wrap mx-auto lg:flex-nowrap p-12 justify-center ">
@@ -33,9 +33,11 @@ class Services extends React.Component {
                 <FaCreativeCommonsBy class="w-full rounded-t-xl text-white md:h-36 pt-5" />
                 <div class="px-6 py-8">
                   <h4 class="mt-4 text-2xl font-semibold text-white">
-                    <span class="">Individuales</span>
+                    <span class="">
+                      {t("services.categorias.0.titulo")}
+                    </span>
                   </h4>
-                  <p class="mt-4 text-base font-normal text-white leading-relax">Viajes, vida y gastos médicos mayores</p>
+                  <p class="mt-4 text-base font-normal text-white leading-relax">{t("services.categorias.0.descripcion")}</p>
                 </div>
               </div>
             </div>
@@ -47,9 +49,9 @@ class Services extends React.Component {
                 <FaCashRegister class="w-full rounded-t-xl text-white md:h-36 pt-5" />
                 <div class="px-6 py-8">
                   <h4 class="mt-4 text-2xl font-semibold text-neutral-600">
-                    <span class="">Pymes</span>
+                    <span class="">{t("services.categorias.1.titulo")}</span>
                   </h4>
-                  <p class="mt-4 text-base font-normal text-gray-500 leading-relax">Cubre el patrimonio de empresas pequeñas y medianas.</p>
+                  <p class="mt-4 text-base font-normal text-gray-500 leading-relax">{t("services.categorias.1.descripcion")}</p>
                 </div>
               </div>
             </div>
@@ -61,9 +63,9 @@ class Services extends React.Component {
                 <FaIndustry class="w-full rounded-t-xl text-white md:h-36 pt-5" />
                 <div class="px-6 py-8">
                   <h4 class="mt-4 text-2xl font-semibold text-neutral-600">
-                    <span class="">Corporativos</span>
+                    <span class="">{t("services.categorias.2.titulo")}</span>
                   </h4>
-                  <p class="mt-4 text-base font-normal text-gray-500 leading-relax">Tu compañía y tu personal siempre protegidos</p>
+                  <p class="mt-4 text-base font-normal text-gray-500 leading-relax">{t("services.categorias.2.descripcion")}</p>
                 </div>
               </div>
             </div>
@@ -79,7 +81,7 @@ class Services extends React.Component {
                 <FaCar class="w-full rounded-t-xl text-white h-24 md:h-32 pt-8" />
                 <div class="px-6 py-8">
                   <h4 class="mt-4 h-16 text-2xl md:text-xl font-semibold text-white">
-                    <span class="">Vehículos</span>
+                    <span class="">{t("services.categorias.3.titulo")}</span>
                   </h4>
                 </div>
               </div>
@@ -92,7 +94,7 @@ class Services extends React.Component {
                 <FaHandHoldingMedical class="w-full rounded-t-xl text-white h-24 md:h-32 pt-8" />
                 <div class="px-6 py-8">
                   <h4 class="mt-4 h-16 text-2xl md:text-xl font-semibold text-neutral-600">
-                    <span class="">Asistencia Médica</span>
+                    <span class="">{t("services.categorias.4.titulo")}</span>
                   </h4>
                 </div>
               </div>
@@ -105,7 +107,7 @@ class Services extends React.Component {
                 <FaAccessibleIcon class="w-full rounded-t-xl text-white h-24 md:h-32 pt-8" />
                 <div class="px-6 py-8">
                   <h4 class="mt-4 h-16 text-2xl md:text-xl font-semibold text-white">
-                    <span class="">Accidentes Personales</span>
+                    <span class="">{t("services.categorias.5.titulo")}</span>
                   </h4>
                 </div>
               </div>
@@ -118,7 +120,7 @@ class Services extends React.Component {
                 <FaCross class="w-full rounded-t-xl text-white h-24 md:h-32 pt-8" />
                 <div class="px-6 py-8">
                   <h4 class="mt-4 h-16 text-2xl md:text-xl font-semibold text-white">
-                    <span class="">Vida</span>
+                    <span class="">{t("services.categorias.6.titulo")}</span>
                   </h4>
                 </div>
               </div>
@@ -131,7 +133,7 @@ class Services extends React.Component {
                 <BsFillAirplaneFill class="w-full rounded-t-xl text-white h-24 md:h-32 pt-8" />
                 <div class="px-6 py-8">
                   <h4 class="mt-4 h-16 text-2xl md:text-xl font-semibold text-white">
-                    <span class="">Viajes</span>
+                    <span class="">{t("services.categorias.7.titulo")}</span>
                   </h4>
                 </div>
               </div>
@@ -144,7 +146,7 @@ class Services extends React.Component {
                 <FaHome class="w-full rounded-t-xl text-white h-24 md:h-32 pt-8" />
                 <div class="px-6 py-8">
                   <h4 class="mt-4 h-16 text-2xl md:text-xl font-semibold text-white">
-                    <span class="">Hogar</span>
+                    <span class="">{t("services.categorias.8.titulo")}</span>
                   </h4>
                 </div>
               </div>
@@ -157,7 +159,7 @@ class Services extends React.Component {
                 <TbDrone class="w-full rounded-t-xl text-white h-24 md:h-32 pt-8" />
                 <div class="px-6 py-8">
                   <h4 class="mt-4 h-16 text-2xl md:text-xl font-semibold text-neutral-600">
-                    <span class="">Innovadores</span>
+                    <span class="">{t("services.categorias.9.titulo")}</span>
                   </h4>
                 </div>
               </div>
@@ -170,7 +172,7 @@ class Services extends React.Component {
                 <FaMoneyBillWaveAlt class="w-full rounded-t-xl text-white h-24 md:h-32 pt-8" />
                 <div class="px-6 py-8">
                   <h4 class="mt-4 h-16 text-2xl md:text-xl font-semibold text-white">
-                    <span class="">Fianzas</span>
+                    <span class="">{t("services.categorias.10.titulo")}</span>
                   </h4>
                 </div>
               </div>
@@ -181,6 +183,6 @@ class Services extends React.Component {
       </section >
     );
   }
-}
+
 
 export default Services;
